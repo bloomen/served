@@ -162,7 +162,7 @@ connection::do_read()
 					response::stock_reply(served::status_4XX::REQ_ENTITY_TOO_LARGE, _response);
 					do_write();
 				}
-				else if ( request_parser_impl::ERROR == result )
+                else if ( request_parser_impl::ERR == result )
 				{
 					// Error occurred while parsing, respond with BAD_REQUEST
 

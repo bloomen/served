@@ -56,7 +56,7 @@ class request_parser {
 
 public:
 
-	enum status { RUNNING = 0, FINISHED, ERROR };
+    enum status { RUNNING = 0, FINISHED, ERR };
 
 private:
 	/*

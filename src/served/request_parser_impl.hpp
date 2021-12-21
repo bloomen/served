@@ -44,7 +44,7 @@ class request_parser_impl : public served::request_parser {
 public:
 	enum status_type
 	{
-		ERROR = 0,
+        ERR = 0,
 		READ_HEADER,
 		EXPECT_CONTINUE,
 		READ_BODY,

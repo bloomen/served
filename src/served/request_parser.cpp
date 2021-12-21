@@ -3449,7 +3449,7 @@ request_parser::get_status()
 {
 	if ( parser_error() )
 	{
-		return ERROR;
+        return ERR;
 	}
 	else if ( parser_finished() )
 	{
